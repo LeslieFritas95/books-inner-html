@@ -1,14 +1,47 @@
-.book-container{
-    border: 1px solid black;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@400;500&display=swap');
 
-.button{
-    
-    width: 80px;
-    height: 50px;
-    border-radius: 15px;
-    border-style: none;
-    background-color: green;
+ body{
+    background-color: #acca57;
+    margin:0px
+
+}
+.disponibili{
+    background-color: #ed6d30;
     color: white;
-  
+}
+.book-container{
+    
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px 35px 20px 35px;
+    border-width: 1px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid yellowgreen;
+    background-color: white;
+}
+.title{
+    color: rgba(213, 65, 62, 0.934);
+}
+.button{
+    width: 120px;
+    margin: 0px auto;
+    background-position: 97% 38%;
+    background-image: url(./icona-carrello-acquisto.png);
+    background-size: 20px;
+    background-color: #ff6501;
+    border: solid 1px #ff6501;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    padding-left: 9px;
+    padding-right: 9px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .85em;
+    display: inline-block;
+    padding-right: 26px;
+    color: #fff;
+    text-align: left;
 }
