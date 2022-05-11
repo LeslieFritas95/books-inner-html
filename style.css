@@ -1,3 +1,14 @@
 .book-container{
     border: 1px solid black;
 }
+
+.button{
+    
+    width: 80px;
+    height: 50px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: green;
+    color: white;
+  
+}
